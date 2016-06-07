@@ -1,0 +1,76 @@
+.leftnav {
+	background-color: gray;
+	height: 100vh;
+	font-family: 'Pacifico', cursive;
+}
+
+a {
+	color: white;
+	display: block;
+	text-align: right;
+	font-size: 20px;
+}
+
+a:link {
+	color: white;
+}
+
+a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+	background-color: salmon;
+	text-decoration: none;
+}
+
+a:active {
+	text-decoration: none;
+	color: white;
+}
+
+.firstlink {
+	margin-top: 30px;
+}
+
+a {
+	text-decoration: none;
+}
+
+#result {
+	font-size: 30px;
+	text-align: center;
+	color: salmon;
+	font-family: 'Pacifico', cursive;
+}
+
+.mainview {
+	text-align: center;
+}
+
+input, textarea {
+	background-color: salmon;
+	text-align: center;
+}
+
+.external {
+	margin-top: 20px;
+
+}
+
+span {
+	font-family: 'Pacifico', cursive;
+	color: salmon;
+}
+
+label {
+	font-family: 'Pacifico', cursive;
+	font-size: 30px;
+	display: block;
+}
+
+ul {
+	text-align: left;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Lab 15</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body ng-app="myModule">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<div class="col-md-3 leftnav">
+		<a href="#/input" class="firstlink">Input</a>
+		<a href="#/external">External</a>
+        <a href="#/lyric">Lyric</a>
+        <a href="#/active">Active</a>
+	</div>
+	<div class="col-md-9 mainview" ng-view></div>
+
+	
+	
+<!-- script tags -->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-route.js"></script>
+    <script src="config.js"></script>
+    <script src="externalservice.js"></script>
+	<script src="externalcontroller.js"></script>
+	<script src="inputcontroller.js"></script>
+    <script src="lyricService.js"></script>
+    <script src="lyricController.js"></script>
+    <script src="services.js"></script> 
+    <script src="activeCtrl.js"></script> 
+    <script src="activeService.js"></script>
+
+   <!--  end of script tags -->
+</body>
+</html>	

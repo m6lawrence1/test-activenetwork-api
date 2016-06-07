@@ -1,0 +1,18 @@
+<div class="external" ng-controller='externalcontroller'>
+	<label for ="username">
+		Type in a GitHub username.
+	</label>
+	<input type="text"
+		ng-model="username"
+		placeholder="Username"/>
+
+	<ul>
+		<li ng-repeat="event in events">
+			<!-- event.actor and event.repo are returned by the github API. To view the raw API, uncomment the next line: -->
+
+			<!-- {{event | json }} -->
+			<span>Username:</span> {{event.actor.login}} <span>Repo Name:</span> {{event.repo.name}} <span>Commit Message:</span> {{event.payload.commits[0].message}}
+		</li>
+	</ul>
+</div>
+
